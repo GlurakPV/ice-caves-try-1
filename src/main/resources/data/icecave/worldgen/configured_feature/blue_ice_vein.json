@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:ore",
+  "config": {
+    "targets": [
+      { "target": { "predicate_type": "minecraft:block_match", "block": "minecraft:stone" }, "state": { "Name": "minecraft:blue_ice" } },
+      { "target": { "predicate_type": "minecraft:block_match", "block": "minecraft:deepslate" }, "state": { "Name": "minecraft:blue_ice" } }
+    ],
+    "size": 12,
+    "discard_chance_on_air_exposure": 0.0
+  }
+}

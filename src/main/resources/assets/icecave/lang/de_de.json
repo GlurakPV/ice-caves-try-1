@@ -1,0 +1,6 @@
+{
+  "block.icecave.ice_spike": "Eisspitze",
+  "entity.icecave.ice_cube": "Eiswürfel",
+  "entity.icecave.frozen": "Gefrorener",
+  "itemGroup.icecave": "Eishöhlen-Welt"
+}

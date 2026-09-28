@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:ore",
+  "config": {
+    "targets": [
+      { "target": { "predicate_type": "minecraft:block_match", "block": "minecraft:dirt" }, "state": { "Name": "minecraft:powder_snow" } },
+      { "target": { "predicate_type": "minecraft:block_match", "block": "minecraft:gravel" }, "state": { "Name": "minecraft:powder_snow" } }
+    ],
+    "size": 20,
+    "discard_chance_on_air_exposure": 0.0
+  }
+}

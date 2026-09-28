@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "icecave",
+  "version": "${version}",
+  "name": "Ice Cave World",
+  "description": "Turns the entire Overworld into an icy cave biome, adds Ice Cube slimes, Frozen zombies and Ice Spikes.",
+  "authors": ["you"],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/icecave/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["net.icecave.mod.IceCaveMod"],
+    "client": ["net.icecave.mod.client.IceCaveModClient"]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=0.16.9",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
