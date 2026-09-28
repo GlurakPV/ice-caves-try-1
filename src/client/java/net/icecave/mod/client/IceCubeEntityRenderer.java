@@ -1,9 +1,9 @@
 package net.icecave.mod.client;
 
 import net.icecave.mod.IceCaveMod;
-import net.icecave.mod.entity.IceCubeEntity;
 import net.minecraft.client.render.entity.EntityRendererFactory;
 import net.minecraft.client.render.entity.SlimeEntityRenderer;
+import net.minecraft.client.render.entity.state.SlimeEntityRenderState;
 import net.minecraft.util.Identifier;
 
 public class IceCubeEntityRenderer extends SlimeEntityRenderer {
@@ -16,7 +16,7 @@ public class IceCubeEntityRenderer extends SlimeEntityRenderer {
 	}
 
 	@Override
-	public Identifier getTexture(net.minecraft.entity.mob.SlimeEntity entity) {
+	public Identifier getTexture(SlimeEntityRenderState state) {
 		return TEXTURE;
 	}
 }
