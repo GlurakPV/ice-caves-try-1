@@ -1,9 +1,9 @@
 package net.icecave.mod.client;
 
 import net.icecave.mod.IceCaveMod;
-import net.icecave.mod.entity.FrozenEntity;
 import net.minecraft.client.render.entity.EntityRendererFactory;
 import net.minecraft.client.render.entity.ZombieEntityRenderer;
+import net.minecraft.client.render.entity.state.ZombieEntityRenderState;
 import net.minecraft.util.Identifier;
 
 public class FrozenEntityRenderer extends ZombieEntityRenderer {
@@ -16,7 +16,7 @@ public class FrozenEntityRenderer extends ZombieEntityRenderer {
 	}
 
 	@Override
-	public Identifier getTexture(net.minecraft.entity.mob.ZombieEntity entity) {
+	public Identifier getTexture(ZombieEntityRenderState state) {
 		return TEXTURE;
 	}
 }
